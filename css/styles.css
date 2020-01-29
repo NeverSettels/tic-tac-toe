@@ -1,7 +1,9 @@
 .jumbotron {
   text-align: center;
 }
-.board{
+#board{
+  margin-top: 5vh;
+  margin-left: 10vh;
   width: 75vh;
   height: 75vh;
   display: flex;
@@ -11,6 +13,10 @@
 .box{
   width: 33%;
   height: 34%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 100px;
 }
 .box1{
   border-right: 2px solid black;
@@ -39,4 +45,16 @@
 }
 .box8{
   border-right: 2px solid black;
+}
+.allBlack{
+  width:100vh;
+  height: 100vw;
+  background-image: url('https://media3.giphy.com/media/l0HlI0AnS8PeRrYzu/source.gif');
+  background-size:cover;
+  color: white;
+  font-size: 200px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  -webkit-text-stroke: 1px black ;
 }
