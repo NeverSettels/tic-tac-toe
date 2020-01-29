@@ -1,0 +1,42 @@
+.jumbotron {
+  text-align: center;
+}
+.board{
+  width: 75vh;
+  height: 75vh;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+.box{
+  width: 33%;
+  height: 34%;
+}
+.box1{
+  border-right: 2px solid black;
+  border-bottom: 2px solid black
+}
+.box2{
+  border-right: 2px solid black;
+  border-bottom: 2px solid black
+}
+.box3{
+  border-bottom: 2px solid black
+}
+.box4{
+  border-right: 2px solid black;
+  border-bottom: 2px solid black
+}
+.box5{
+  border-right: 2px solid black;
+  border-bottom: 2px solid black
+}
+.box6{
+  border-bottom: 2px solid black
+}
+.box7{
+  border-right: 2px solid black;
+}
+.box8{
+  border-right: 2px solid black;
+}
